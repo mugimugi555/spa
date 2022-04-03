@@ -27,4 +27,13 @@ cd my-vue-bootstrap-3 ;
 npm install vue bootstrap bootstrap-vue-3 ;
 
 #
+xdg-open http://localhost:8080/
+
+# check selected vue version
+VUE_VERSION=`npm list vue | grep -o -m1 vue@[0-9]` ;
+if [ $VUE_VERSION == "vue@3" ]; then
+  echo "vue is 3";
+fi
+
+#
 npm run serve ;
