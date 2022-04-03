@@ -20,11 +20,11 @@ sudo echo ;
 sudo npm install -g @vue/cli ;
 
 #
-vue create my-vue-bootstrap-3 ;
-cd my-vue-bootstrap-3 ;
+vue create my-vue-bootstrap ;
+cd my-vue-bootstrap ;
 
 #
-npm install vue bootstrap bootstrap-vue-3 ;
+npm install vue bootstrap bootstrap-vue ;
 
 #
 xdg-open http://localhost:8080/
