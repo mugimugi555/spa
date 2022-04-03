@@ -1,3 +1,6 @@
+#!/usr/bin/bash
+
+# wget https://raw.githubusercontent.com/mugimugi555/spa/main/vue/install.sh && bash install.sh ;
 
 # https://bootstrap-vue.org/docs
 
