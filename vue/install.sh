@@ -27,7 +27,7 @@ cd my-vue-bootstrap ;
 npm install vue bootstrap bootstrap-vue ;
 
 #
-xdg-open http://localhost:8080/
+xdg-open http://localhost:8080/ & ;
 
 # check selected vue version
 VUE_VERSION=`npm list vue | grep -o -m1 vue@[0-9]` ;
