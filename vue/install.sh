@@ -34,6 +34,7 @@ cd my-vue-bootstrap ;
 
 #
 npm install --save vue bootstrap@^4 bootstrap-vue ;
+npm install --legacy-peer-deps vue-router ;
 
 #
 xdg-open http://localhost:8080/ &
