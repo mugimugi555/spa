@@ -19,21 +19,24 @@ cd ;
 sudo echo ;
 sudo npm install -g @vue/cli ;
 
+echo "===========================";
+echo "select vue 2 version";
+echo "===========================";
+
 #
 vue create my-vue-bootstrap ;
+
+# check selected vue version
+npm list vue | grep -o -m1 vue@[0-9] ;
+
+#
 cd my-vue-bootstrap ;
 
 #
-npm install vue bootstrap bootstrap-vue ;
+npm install --save vue bootstrap@^4 bootstrap-vue ;
 
 #
 xdg-open http://localhost:8080/ &
-
-# check selected vue version
-VUE_VERSION=`npm list vue | grep -o -m1 vue@[0-9]` ;
-if [ $VUE_VERSION == "vue@3" ]; then
-  echo "vue is 3";
-fi
 
 #
 npm run serve ;
